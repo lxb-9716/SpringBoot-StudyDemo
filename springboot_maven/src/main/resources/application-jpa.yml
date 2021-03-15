@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      hbm2ddl.auto: update
+      show-sql: true   #是否显示sql语句
+      ddl-auto: update
+    generate-ddl: true
+    database: mysql   #数据库

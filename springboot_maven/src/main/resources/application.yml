@@ -1,0 +1,7 @@
+#指定该工程的端口号
+server:
+  port: 31001
+#引入其他的yml文件(数据源的配置)
+spring:
+  profiles:
+    active: db,jpa
